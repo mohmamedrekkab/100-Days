@@ -30,7 +30,7 @@ def encryption(p, n):
         print(phrase2)
     
     elif p=="decode":
-        for n in range(n, 27+n):
+        for n in range(n, 26+n):
             letters2.append(letters[n])
     #print(letters2)
         for i in range(len(phrase)):
