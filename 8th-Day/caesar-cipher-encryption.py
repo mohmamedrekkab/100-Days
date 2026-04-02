@@ -10,7 +10,8 @@ phrase=input("Type you message:\n").lower()
 
 
 shiftnumber= int(input("Type the schift number:\n"))
-
+if shiftnumber >26:
+    shiftnumber = shiftnumber % 26
 def encryption(p, n):
     phrase2=""
     if p=="encode":
