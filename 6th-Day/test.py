@@ -1,4 +1,5 @@
-def my_function():
-    print("Hello Mohamed, tha is my first function")
+display=[]
 
-my_function()
+for _ in range(6):
+    display+="_"
+print(display)
