@@ -17,3 +17,9 @@ def greet_with(name, location):
     print(f"What is it like in {location} ?")
 
 greet_with("Mohamed","Hamburg")
+
+def greet_with2(name, location):
+    print(f"Hallow {name}")
+    print(f"What is it like in {location} ?")
+
+greet_with2(location="Hamburg",name="Mohamed")
